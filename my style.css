@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-xs-2 {
+    padding-left: 30px;
+}
+.col-xs-10 {
+    padding-right: 30px;
+}
+
+body {
+    margin: 0;
+    padding-top: 74px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color:rgb(202, 255, 255);
+    z-index: 9999;
+}
+
+.search_form {
+    display: inline-block;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+    max-width: 100px;
+}
+
+.search_input {
+    width: 100%;
+}
+
+.search_button {
+    border: none;
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    height: 15px;
+    padding: 0 5px;
+}
+
+.nav {
+    padding-top: 10px;
+    text-align: right;
+}
+
+.nav_item {
+    color: blue;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+.nav_item:hover {
+    transition: color 0.5s;
+    color: aqua;
+}
+
+.col-xs-6 {
+    padding-left: 20px;
+}
+
+.hero {
+    background-image: url(https://studycrumb.com/_next/image?url=%2Fimg%2Fblog%2Farticles%2Ftravel-essay%2Fthumbnail%402x.jpeg&w=1920&q=90);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+    padding: 10px 0 30px 0;
+    position: relative;
+    color: white;
+}
+
+.hero_button-wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+.hero_button {
+    margin: 0 10px;
+    text-decoration: none;
+    background-color:blue;
+    color: white;
+    padding: 5px 15px;
+    font-size: small;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.hero_button:hover {
+    transition: opacity 0.2;
+    opacity: 0.75;
+}
+
+.hero_button:first-child {
+    margin-left: 0;
+}
+
+.hero_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+    background-color:black;
+}
+
+.hero_content {
+    position:relative;
+    z-index: 2;
+}
+
+.col-xs-4 {
+    padding-left: 28px;
+}
+
+.col-xs-4:nth-child(2) {
+    padding-left: 16px;
+}
+
+.col-xs-4:nth-child(3) {
+    padding-left: 4px;
+}
+
+.new {
+    padding: 25px 0;
+    color: black;
+}
+
+.news_read-more-wrapper {
+    width: 100%;
+    text-align:right;
+    padding-right: 12px;
+}
+
+.news_read-more {
+    color: blue;
+}
+
+.news_read-more:hover {
+    transition: 0.5s;
+    color:aqua;
+}
+
+.title {
+    color: black;
+}
+
+.banner {
+    background-color: rgb(161, 255, 255);
+    padding: 10px 0 40px 0;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    width: 750px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.content {
+    background-color:rgb(78, 204, 78);
+    padding: 10px 0 25px 0;
+    color: black;
+}
+
+.content_list {
+    list-style-type:square;;
+}
+
+.content_table {
+    border: 3px solid black;
+}
+
+.content_table th, .content_table td {
+    border: 3px solid black;
+    padding: 30px;
+}
+
+.footer {
+    padding: 10px 0 25px 0;
+    background-color:rgb(47, 160, 47);
+}
+
+.navigation_begining {
+    color: blue;
+}
+
+.navigation_begining:hover {
+    transition: 0.5s;
+    color:aqua;
+}
+
+.navigation_aboutus {
+    color: blue;
+}
+
+.navigation_aboutus:hover {
+    transition: 0.5s;
+    color:aqua;
+}
+
+.navigation_contacts {
+    color: blue;
+}
+
+.navigation_contacts:hover {
+    transition: 0.5s;
+    color:aqua;
+}
+
+.copyright {
+    background-color:rgb(109, 40, 40);
+    padding: 10px 0;
+}
